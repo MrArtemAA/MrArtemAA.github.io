@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Библиотека: LS_ActiveDirectory_Lib</title>
+    <title>Согласование кредитных заявок</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -55,19 +55,63 @@
     </div>
     <div class="container">	
 	<div class="page-header">
-		<h1>Библиотека: LS_ActiveDirectory_Lib</h1>
+		<h1>Согласование кредитных заявок</h1>
 	</div>
 
 
-	<p><div class="bs-callout bs-callout-primary" id="callout-labels-inline-block"> 
- <h4>Назначение</h4> 
- <p>Библиотека для платформы IBM Notes/Domino, облегчающая взаимодействие и интеграцию с MS Active Directory.</p> 
-</div> 
-<p> LS_ActiveDirectory_Lib - это библиотека с открытым исходным кодом. Она берет на себя рутинные операции работе с MS Active Directory (MS AD) по протоколу LDAP с помощью провайдера ADSI (Active Directory Service Interface), оборачивая громоздкие вызовы в объекты и методы. Для взаимодействия с ADSI используются его COM-объекты, включенные в семейство ОС Windows. </p> 
-<ul> 
- <li>Библиотека доступна на GitHub в рамках проекта <a href="https://github.com/MrArtemAA/LotusScript-Open-Libraries">LotusScript-Open-Libraries</a></li> 
- <li>Подробное описание, использование и документация размещена на <a href="https://github.com/MrArtemAA/LotusScript-Open-Libraries/blob/master/docs/ru/active-directory-lib/main.md">GitHub</a></li> 
-</ul></p>
+	<p><div class="row"> 
+ <div class="col-md-9"> 
+  <div class="bs-callout bs-callout-primary" id="callout-labels-inline-block"> 
+   <h4>Назначение</h4> 
+   <p>Проведение многоступенчатого процесса согласования кредитных заявок.</p> 
+  </div> 
+  <h2>Основные возможности</h2> 
+  <ul> 
+   <li>Внесение необходимых данных по заявке в зависимости от основных параметров</li> 
+   <li>Проведение процесса обсуждения параметров заявки</li> 
+   <li>Ведение истории изменения каждого параметра заявки с возможностью быстрого просмотра</li> 
+   <li>Подтверждение финальных параметров заявки</li> 
+   <li>Основная работа через клиентское приложение IBM Notes</li> 
+   <li>Подтверждение доступно через web-интерфейс с адаптивной версткой</li> 
+  </ul> 
+  <h2>Также возможно</h2> 
+  <ul> 
+   <li>Интеграция с АБС Банка для импорта/экспорта параметров заявки</li> 
+  </ul> 
+  <div class="bs-callout bs-callout-danger" id="callout-labels-inline-block"> 
+   <h4>Обратите внимание!</h4> 
+   <p> Работа приложения рассчитана только в рамках развернутой <a href="/services.html#domino-services">инфраструктуры сервисов для Notes/Domino</a> </p> 
+  </div> 
+ </div> 
+ <div class="col-md-3"> 
+  <div class="panel panel-default"> 
+   <div class="panel-heading"> 
+    <h3 class="panel-title">Услуга</h3> 
+   </div> 
+   <div class="panel-body"> 
+    <a href="/services.html#domino">Разработка под IBM Notes/Domino (Lotus Notes)</a> 
+   </div> 
+  </div> 
+  <div class="panel panel-default"> 
+   <div class="panel-heading"> 
+    <h3 class="panel-title">Технологии</h3> 
+   </div> 
+   <div class="panel-body"> 
+    <ul> 
+     <li>LotusScript</li> 
+     <li>XPages</li> 
+     <li>Java</li> 
+     <li>OpenNTF Extension Library</li> 
+     <li>OpenNTF Domino API</li> 
+     <li>JavaScript</li> 
+     <li>Bootstrap</li> 
+     <li>JQuery</li> 
+     <li>Dojo</li> 
+    </ul> 
+   </div> 
+  </div> 
+ </div> 
+</div></p>
 
 	<hr />
 
